@@ -1,0 +1,252 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: BBColor\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: mrcbbcolorunit.ssavechanges
+msgid "Save changes?"
+msgstr "Сохранить изменения?"
+
+#: taboutform.caption
+msgctxt "taboutform.caption"
+msgid "About"
+msgstr "О программе"
+
+#: taboutform.label1.caption
+msgid "BBColor"
+msgstr ""
+
+#: taboutform.label2.caption
+msgid ""
+"WYSIWYG BB-Code Editor\n"
+"\n"
+"License: GNU GPL\n"
+"Compilation: Lazarus 2.0.10\n"
+"Author: alex_q_2000 (C) 2021\n"
+"Gratitude: algri14, Zomby\n"
+"\n"
+"Russian Linux Forum:\n"
+"https://linuxforum.ru/\n"
+msgstr ""
+"WYSIWYG редактор BB-Кода\n"
+"\n"
+"Лицензия: GNU GPL\n"
+"Компиляция: Lazarus 2.0.10\n"
+"Автор: alex_q_2000 (C) 2021\n"
+"Благодарность: algri14, Zomby\n"
+"\n"
+"Russian Linux Forum:\n"
+"https://linuxforum.ru/\n"
+
+#: taboutform.langbtn.caption
+msgid "Ок"
+msgstr ""
+
+#: tmainform.aboutbutton.caption
+msgid "?"
+msgstr ""
+
+#: tmainform.aboutbutton.hint
+msgctxt "tmainform.aboutbutton.hint"
+msgid "About"
+msgstr "О программе"
+
+#: tmainform.anchorboldbtn.caption
+msgctxt "tmainform.anchorboldbtn.caption"
+msgid "B"
+msgstr ""
+
+#: tmainform.anchorboldbtn.hint
+msgctxt "tmainform.anchorboldbtn.hint"
+msgid "Bold"
+msgstr "Жирный"
+
+#: tmainform.anchorclearbtn.caption
+msgctxt "tmainform.anchorclearbtn.caption"
+msgid "X"
+msgstr ""
+
+#: tmainform.anchorclearbtn.hint
+msgctxt "tmainform.anchorclearbtn.hint"
+msgid "Clear"
+msgstr "Очистить"
+
+#: tmainform.anchorcolorbtn.caption
+msgctxt "tmainform.anchorcolorbtn.caption"
+msgid "С"
+msgstr ""
+
+#: tmainform.anchorcolorbtn.hint
+msgctxt "tmainform.anchorcolorbtn.hint"
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: tmainform.anchorcolorreset.caption
+msgid "Reset color"
+msgstr "Сбросить цвет"
+
+#: tmainform.boldbutton.caption
+msgctxt "tmainform.boldbutton.caption"
+msgid "B"
+msgstr ""
+
+#: tmainform.boldbutton.hint
+msgctxt "tmainform.boldbutton.hint"
+msgid "Bold"
+msgstr "Жирный"
+
+#: tmainform.caption
+msgid "BBColor v2.0"
+msgstr ""
+
+#: tmainform.colorbutton1.hint
+msgid "Color-1"
+msgstr "Цвет-1"
+
+#: tmainform.colorbutton2.hint
+msgid "Color-2"
+msgstr "Цвет-2"
+
+#: tmainform.copytextbtn.caption
+msgctxt "tmainform.copytextbtn.caption"
+msgid "Convert to clipboard"
+msgstr "Конвертировать в буфер"
+
+#: tmainform.copyurlbtn.caption
+msgctxt "tmainform.copyurlbtn.caption"
+msgid "Convert to clipboard"
+msgstr "Конвертировать в буфер"
+
+#: tmainform.fontcolorbutton.caption
+msgctxt "tmainform.fontcolorbutton.caption"
+msgid "С"
+msgstr ""
+
+#: tmainform.fontcolorbutton.hint
+msgctxt "tmainform.fontcolorbutton.hint"
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: tmainform.gradientbutton.caption
+msgid "G"
+msgstr ""
+
+#: tmainform.gradientbutton.hint
+msgid "Gradient"
+msgstr "Градиент"
+
+#: tmainform.italicbutton.caption
+msgid "I"
+msgstr ""
+
+#: tmainform.italicbutton.hint
+msgid "Italic"
+msgstr "Наклонный"
+
+#: tmainform.label1.caption
+msgid "Address (url/email):"
+msgstr "Адрес (url/email):"
+
+#: tmainform.label2.caption
+msgid "Description (anchor):"
+msgstr "Описание (anchor):"
+
+#: tmainform.menuitem1.caption
+msgid "Cut"
+msgstr "Вырезать"
+
+#: tmainform.menuitem2.caption
+msgid "Copy"
+msgstr "Копировать"
+
+#: tmainform.menuitem4.caption
+msgid "Paste"
+msgstr "Вставить"
+
+#: tmainform.panel2.caption
+msgid "Panel2"
+msgstr ""
+
+#: tmainform.panel3.caption
+msgid "Panel3"
+msgstr ""
+
+#: tmainform.panel7.caption
+msgid "Panel7"
+msgstr ""
+
+#: tmainform.panel8.caption
+msgctxt "tmainform.panel8.caption"
+msgid "BB-Code"
+msgstr "BB-Код"
+
+#: tmainform.panel9.caption
+msgctxt "tmainform.panel9.caption"
+msgid "BB-Code"
+msgstr "BB-Код"
+
+#: tmainform.randombutton.caption
+msgid "R"
+msgstr ""
+
+#: tmainform.randombutton.hint
+msgid "Random"
+msgstr "Случайно"
+
+#: tmainform.spinedit1.hint
+msgid "Scale"
+msgstr "Масштаб"
+
+#: tmainform.strikeoutbutton.caption
+msgid "S"
+msgstr ""
+
+#: tmainform.strikeoutbutton.hint
+msgid "Strikeout"
+msgstr "Перечеркнутый"
+
+#: tmainform.tabsheet1.caption
+msgid "Text"
+msgstr "Текст"
+
+#: tmainform.tabsheet2.caption
+msgid "Address (url/email)"
+msgstr "Адрес (url/email)"
+
+#: tmainform.textclearbtn.caption
+msgctxt "tmainform.textclearbtn.caption"
+msgid "X"
+msgstr ""
+
+#: tmainform.textclearbtn.hint
+msgctxt "tmainform.textclearbtn.hint"
+msgid "Clear"
+msgstr "Очистить"
+
+#: tmainform.underlinebutton.caption
+msgid "U"
+msgstr ""
+
+#: tmainform.underlinebutton.hint
+msgid "Underline"
+msgstr "Подчеркнутый"
+
+#: tmainform.urlclearbtn.caption
+msgctxt "tmainform.urlclearbtn.caption"
+msgid "X"
+msgstr ""
+
+#: tmainform.urlclearbtn.hint
+msgctxt "tmainform.urlclearbtn.hint"
+msgid "Clear"
+msgstr "Очистить"
+

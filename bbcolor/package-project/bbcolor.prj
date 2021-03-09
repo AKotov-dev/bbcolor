@@ -1,0 +1,70 @@
+[NAME]
+name=bbcolor
+
+[VERSION]
+version=2.0
+
+[RELEASE]
+release=1.mrx8
+
+[GROUP]
+group=Applications/Text
+
+[DESCRIPTION]
+0=The program is designed to convert colored text and links to bb-code
+1=It is intended for registration of messages in forums
+2=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=alex_q_2000 (C) 2021
+
+[SUMMARY]
+summary=BBColor - text to bb-code converter
+
+[URLCOPY]
+urlcopy=https://cloud.mail.ru/public/sL6t/U1rcycBH1
+
+[LICENSE]
+license=GPLv3+
+
+[DEPS]
+deps=
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=0
+
+[SIGN]
+sign=0
+
+[FILES]
+0=/usr/bin/bbcolor
+1=/usr/share/bbcolor/
+2=/usr/share/icons/bbcolor.png
+3=/usr/share/applications/bbcolor.desktop
+4=/usr/share/doc/bbcolor/
+
+[URL32]
+url32=https://cloud.mail.ru/public/sL6t/U1rcycBH1
+
+[URL64]
+url64=
+
+[PROGRAMNAME]
+programname=BBColor
+
+[DEVTOOL]
+devtool=Lazarus
+
+[TOOLVERSION]
+toolversion=2.0.10
+
+[INFO]
+0=Lazarus 2.0.10 is required to compile the program
+1=
+2=Additional components: RichMemo from Lazarus Network Installer

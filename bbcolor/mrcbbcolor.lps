@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Release"/>
+    <Units Count="16">
+      <Unit0>
+        <Filename Value="mrcbbcolor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="30" Y="3"/>
+        <UsageCount Value="82"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="21" Y="11"/>
+        <UsageCount Value="82"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="aboutunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="54" Y="36"/>
+        <UsageCount Value="23"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="richmemo.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="richmemofactory.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="richmemohelpers.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="richmemopackage.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="richmemortf.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="richmemoutils.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="rtfdata.inc"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="rtfparspre211.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="wsrichmemo.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="gtk2\gtk2richmemo.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="unit2.pas"/>
+        <ComponentName Value="SForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit2"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="3" Y="62"/>
+        <UsageCount Value="34"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\110E~1\AppData\Local\Temp\Rar$DIa0.276\gtk2richmemo.pas"/>
+        <UnitName Value="Gtk2RichMemo"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="lib\i386-win32\bbcolorunit.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit15>
+    </Units>
+    <JumpHistory Count="21" HistoryIndex="20">
+      <Position1>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="9" Column="65"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="550" Column="41" TopLine="538"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="589" Column="38" TopLine="578"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="47" Column="9" TopLine="32"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="48" Column="9" TopLine="32"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="82" Column="25" TopLine="57"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="472" Column="33" TopLine="447"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="82" Column="27" TopLine="67"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="109" Column="48" TopLine="67"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="520" Column="3" TopLine="516"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="591" Column="6" TopLine="580"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="589" Column="25" TopLine="574"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="579" Column="18" TopLine="574"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="625" Column="3" TopLine="623"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="513" TopLine="513"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="512" TopLine="512"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="511" TopLine="511"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="541" TopLine="539"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="540" TopLine="538"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="539" TopLine="537"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="535" TopLine="535"/>
+      </Position21>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

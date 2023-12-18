@@ -7,8 +7,8 @@ interface
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Buttons,
   ComCtrls, StdCtrls, ExtCtrls, Menus, RichMemo, RichMemoHelpers,
-  LCLIntf, LCLType, LazUTF8, ClipBrd, XMLPropStorage, Spin, LCLTranslator,
-  DefaultTranslator;
+  LCLIntf, LCLType, LazUTF8, ClipBrd, Spin, LCLTranslator,
+  DefaultTranslator, IniPropStorage;
 
 type
 
@@ -28,6 +28,7 @@ type
     Editor: TRichMemo;
     AnchorColorBtn: TSpeedButton;
     AboutButton: TSpeedButton;
+    IniPropStorage1: TIniPropStorage;
     RandomButton: TSpeedButton;
     Label1: TLabel;
     Label2: TLabel;
@@ -68,7 +69,6 @@ type
     TabSheet1: TTabSheet;
     TabSheet2: TTabSheet;
     URLMemo: TMemo;
-    MainXMLPropStorage: TXMLPropStorage;
     procedure AboutButtonClick(Sender: TObject);
     procedure AnchorBoldBtnClick(Sender: TObject);
     procedure AnchorColorResetClick(Sender: TObject);
@@ -134,9 +134,9 @@ begin
   //Windows/Linux
   {$IFDEF linux}
   Editor.PopupMenu := nil;
-  MainXMLPropStorage.FileName := GetUserDir + '.bbcolor';
+  IniPropStorage1.IniFileName := GetUserDir + '.bbcolor';
   {$ELSE}
-  MainXMLPropStorage.FileName := ExtractFilePath(ParamStr(0)) + 'bbcolor';
+  IniPropStorage1.IniFileName := ExtractFilePath(ParamStr(0)) + 'bbcolor';
   {$ENDIF}
 end;
 
@@ -350,7 +350,7 @@ end;
 procedure TMainForm.FormShow(Sender: TObject);
 begin
   //Plasma DPi
-  MainXMLPropStorage.Restore;
+  IniPropStorage1.Restore;
 
   MainForm.Caption := Application.Title;
   DefaultColor := BBTextMemo.Font.Color;

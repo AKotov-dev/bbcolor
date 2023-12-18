@@ -19,7 +19,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="23"/>
+        <CursorPos X="39" Y="10"/>
         <UsageCount Value="82"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -142,123 +142,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="9" Column="65"/>
+        <Caret Line="82" Column="25" TopLine="57"/>
       </Position1>
       <Position2>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="550" Column="41" TopLine="538"/>
+        <Caret Line="472" Column="33" TopLine="447"/>
       </Position2>
       <Position3>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="589" Column="38" TopLine="578"/>
+        <Caret Line="82" Column="27" TopLine="67"/>
       </Position3>
       <Position4>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="47" Column="9" TopLine="32"/>
+        <Caret Line="109" Column="48" TopLine="67"/>
       </Position4>
       <Position5>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="48" Column="9" TopLine="32"/>
+        <Caret Line="520" Column="3" TopLine="516"/>
       </Position5>
       <Position6>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="82" Column="25" TopLine="57"/>
+        <Caret Line="591" Column="6" TopLine="580"/>
       </Position6>
       <Position7>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="472" Column="33" TopLine="447"/>
+        <Caret Line="589" Column="25" TopLine="574"/>
       </Position7>
       <Position8>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="82" Column="27" TopLine="67"/>
+        <Caret Line="579" Column="18" TopLine="574"/>
       </Position8>
       <Position9>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="109" Column="48" TopLine="67"/>
+        <Caret Line="625" Column="3" TopLine="623"/>
       </Position9>
       <Position10>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="520" Column="3" TopLine="516"/>
+        <Caret Line="513" TopLine="513"/>
       </Position10>
       <Position11>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="591" Column="6" TopLine="580"/>
+        <Caret Line="512" TopLine="512"/>
       </Position11>
       <Position12>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="589" Column="25" TopLine="574"/>
+        <Caret Line="511" TopLine="511"/>
       </Position12>
       <Position13>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="579" Column="18" TopLine="574"/>
+        <Caret Line="541" TopLine="539"/>
       </Position13>
       <Position14>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="625" Column="3" TopLine="623"/>
+        <Caret Line="540" TopLine="538"/>
       </Position14>
       <Position15>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="513" TopLine="513"/>
+        <Caret Line="539" TopLine="537"/>
       </Position15>
       <Position16>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="512" TopLine="512"/>
+        <Caret Line="535" TopLine="535"/>
       </Position16>
       <Position17>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="511" TopLine="511"/>
+        <Caret Line="11" Column="21"/>
       </Position17>
       <Position18>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="541" TopLine="539"/>
+        <Caret Line="9" Column="40"/>
       </Position18>
       <Position19>
-        <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="540" TopLine="538"/>
+        <Filename Value="aboutunit.pas"/>
+        <Caret Line="36" Column="54" TopLine="8"/>
       </Position19>
       <Position20>
-        <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="539" TopLine="537"/>
+        <Filename Value="aboutunit.pas"/>
+        <Caret Line="50" Column="16"/>
       </Position20>
       <Position21>
-        <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="535" TopLine="535"/>
+        <Filename Value="aboutunit.pas"/>
+        <Caret Line="49" Column="16" TopLine="21"/>
       </Position21>
       <Position22>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="11" Column="21"/>
+        <Caret Line="352" Column="41" TopLine="350"/>
       </Position22>
       <Position23>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="9" Column="40"/>
+        <Caret Line="141" TopLine="132"/>
       </Position23>
       <Position24>
-        <Filename Value="aboutunit.pas"/>
-        <Caret Line="36" Column="54" TopLine="8"/>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="352" Column="15" TopLine="350"/>
       </Position24>
       <Position25>
-        <Filename Value="aboutunit.pas"/>
-        <Caret Line="50" Column="16"/>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Column="23" TopLine="85"/>
       </Position25>
       <Position26>
-        <Filename Value="aboutunit.pas"/>
-        <Caret Line="49" Column="16" TopLine="21"/>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="140" Column="3" TopLine="132"/>
       </Position26>
       <Position27>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="352" Column="41" TopLine="350"/>
+        <Caret Line="353" Column="2" TopLine="350"/>
       </Position27>
       <Position28>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="141" TopLine="132"/>
+        <Caret Line="354" Column="2" TopLine="351"/>
       </Position28>
       <Position29>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Line="352" Column="15" TopLine="350"/>
+        <Caret Line="353" Column="2" TopLine="350"/>
       </Position29>
       <Position30>
         <Filename Value="mrcbbcolorunit.pas"/>
-        <Caret Column="22"/>
+        <Caret Line="135" TopLine="121"/>
       </Position30>
     </JumpHistory>
     <RunParams>

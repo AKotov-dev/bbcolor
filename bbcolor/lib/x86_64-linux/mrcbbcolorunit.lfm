@@ -3,7 +3,6 @@ object MainForm: TMainForm
   Height = 660
   Top = 124
   Width = 895
-  ActiveControl = Editor
   Caption = 'BBColor'
   ClientHeight = 660
   ClientWidth = 895
@@ -615,6 +614,12 @@ object MainForm: TMainForm
         Top = 427
         Width = 889
         Align = alClient
+        Font.CharSet = RUSSIAN_CHARSET
+        Font.Height = -13
+        Font.Name = 'Monospace'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentFont = False
         ScrollBars = ssVertical
         TabOrder = 5
       end
@@ -787,9 +792,9 @@ object MainForm: TMainForm
     Left = 720
     Top = 155
   end
-  object MainXMLPropStorage: TXMLPropStorage
+  object IniPropStorage1: TIniPropStorage
     StoredValues = <>
-    Left = 608
-    Top = 96
+    Left = 616
+    Top = 104
   end
 end

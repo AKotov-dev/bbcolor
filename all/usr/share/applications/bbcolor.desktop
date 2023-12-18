@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=BBColor
+Name[ru]=BBColor
+Comment=BB-code editor
+Comment[ru]=Редактор BB-кода
+Icon=bbcolor
+Exec=bbcolor
+Type=Application
+Categories=Utility
+Terminal=false

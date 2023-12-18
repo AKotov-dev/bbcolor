@@ -131,13 +131,13 @@ end;
 
 procedure TMainForm.FormCreate(Sender: TObject);
 begin
-  //Windows/Linux
+{  //Windows/Linux
   {$IFDEF linux}
   Editor.PopupMenu := nil;
-  MainXMLPropStorage.FileName := GetUserDir + '.bbsettings';
+  MainXMLPropStorage.FileName := GetUserDir + '.bbcolor';
   {$ELSE}
-  MainXMLPropStorage.FileName := ExtractFilePath(ParamStr(0)) + 'bbsettings';
-  {$ENDIF}
+  MainXMLPropStorage.FileName := ExtractFilePath(ParamStr(0)) + 'bbcolor';
+  {$ENDIF} }
 end;
 
 procedure TMainForm.CopyTextBtnClick(Sender: TObject);
@@ -349,6 +349,7 @@ end;
 
 procedure TMainForm.FormShow(Sender: TObject);
 begin
+  //Plasma DPi
   MainXMLPropStorage.Restore;
 
   MainForm.Caption := Application.Title;

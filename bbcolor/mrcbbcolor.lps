@@ -19,8 +19,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="132"/>
-        <CursorPos X="3" Y="134"/>
+        <CursorPos X="23"/>
         <UsageCount Value="82"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -140,7 +139,7 @@
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit15>
     </Units>
-    <JumpHistory Count="29" HistoryIndex="28">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="mrcbbcolorunit.pas"/>
         <Caret Line="9" Column="65"/>
@@ -257,6 +256,10 @@
         <Filename Value="mrcbbcolorunit.pas"/>
         <Caret Line="352" Column="15" TopLine="350"/>
       </Position29>
+      <Position30>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Column="22"/>
+      </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

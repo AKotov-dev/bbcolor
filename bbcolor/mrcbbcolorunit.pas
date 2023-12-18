@@ -134,9 +134,9 @@ begin
   //Windows/Linux
   {$IFDEF linux}
   Editor.PopupMenu := nil;
-  MainXMLPropStorage.FileName := GetUserDir + '.bbsettings';
+  MainXMLPropStorage.FileName := GetUserDir + '.bbcolor';
   {$ELSE}
-  MainXMLPropStorage.FileName := ExtractFilePath(ParamStr(0)) + 'bbsettings';
+  MainXMLPropStorage.FileName := ExtractFilePath(ParamStr(0)) + 'bbcolor';
   {$ENDIF}
 end;
 

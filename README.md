@@ -9,4 +9,4 @@ BBColor - BB-code editor & converter for forums
 To recompile, install an additional package `Lazarus` - `RichMemo`.  
 The easiest way to install the stable version of the component is via the `Online-Package-Manager` included in current `Lazarus` versions.
 
-Made and tested in Mageia Linux-8 and Linux Mint-19.3.
+Made and tested in Mageia Linux.

@@ -7,7 +7,7 @@ interface
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Buttons,
   ComCtrls, StdCtrls, ExtCtrls, Menus, RichMemo, RichMemoHelpers,
-  LCLIntf, LCLType, LazUTF8, ClipBrd, XMLPropStorage, Spin, LCLTranslator,
+  LCLIntf, LCLType, LazUTF8, ClipBrd, Spin, LCLTranslator,
   DefaultTranslator, IniPropStorage;
 
 type
@@ -79,7 +79,6 @@ type
     procedure EditorChange(Sender: TObject);
     procedure AnchorColorBtnClick(Sender: TObject);
     procedure FontColorButtonlick(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure ItalicButtonClick(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
@@ -127,17 +126,6 @@ begin
   Result :=
     IntToHex(GetRValue(Color), 2) + IntToHex(GetGValue(Color), 2) +
     IntToHex(GetBValue(Color), 2);
-end;
-
-procedure TMainForm.FormCreate(Sender: TObject);
-begin
-  //Windows/Linux
-  {$IFDEF linux}
-  Editor.PopupMenu := nil;
-  IniPropStorage1.IniFileName := GetUserDir + '.bbcolor';
-  {$ELSE}
-  IniPropStorage1.IniFileName := ExtractFilePath(ParamStr(0)) + 'bbcolor';
-  {$ENDIF}
 end;
 
 procedure TMainForm.CopyTextBtnClick(Sender: TObject);
@@ -349,8 +337,16 @@ end;
 
 procedure TMainForm.FormShow(Sender: TObject);
 begin
+    //Windows/Linux
+  {$IFDEF linux}
+  Editor.PopupMenu := nil;
+  IniPropStorage1.IniFileName := GetUserDir + '.bbcolor';
+  {$ELSE}
+  IniPropStorage1.IniFileName := ExtractFilePath(ParamStr(0)) + 'bbcolor';
+  {$ENDIF}
+
   //Plasma DPi
-  IniPropStorage1.Restore;
+ // IniPropStorage1.Restore;
 
   MainForm.Caption := Application.Title;
   DefaultColor := BBTextMemo.Font.Color;

@@ -129,17 +129,6 @@ begin
     IntToHex(GetBValue(Color), 2);
 end;
 
-procedure TMainForm.FormCreate(Sender: TObject);
-begin
-  //Windows/Linux
-  {$IFDEF linux}
-  Editor.PopupMenu := nil;
-  IniPropStorage1.IniFileName := GetUserDir + '.bbcolor';
-  {$ELSE}
-  IniPropStorage1.IniFileName := ExtractFilePath(ParamStr(0)) + 'bbcolor';
-  {$ENDIF}
-end;
-
 procedure TMainForm.CopyTextBtnClick(Sender: TObject);
 var
   n: integer; //Указатель номера символа, размер шрифта
@@ -345,6 +334,17 @@ begin
     Editor.SelAttributes.Color := Colordialog1.Color;
     Editor.Repaint;
   end;
+end;
+
+procedure TMainForm.FormCreate(Sender: TObject);
+begin
+  //Windows/Linux
+  {$IFDEF linux}
+  Editor.PopupMenu := nil;
+  IniPropStorage1.IniFileName := GetUserDir + '.bbcolor';
+  {$ELSE}
+  IniPropStorage1.IniFileName := ExtractFilePath(ParamStr(0)) + 'bbcolor';
+  {$ENDIF}
 end;
 
 procedure TMainForm.FormShow(Sender: TObject);

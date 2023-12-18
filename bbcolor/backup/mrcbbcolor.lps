@@ -2,7 +2,7 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="11"/>
+    <Version Value="12"/>
     <BuildModes Active="Release"/>
     <Units Count="16">
       <Unit0>
@@ -18,8 +18,8 @@
         <ComponentName Value="MainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="21" Y="11"/>
+        <TopLine Value="350"/>
+        <CursorPos X="15" Y="352"/>
         <UsageCount Value="82"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -30,9 +30,12 @@
         <ComponentName Value="AboutForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="54" Y="36"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="20" Y="9"/>
         <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="richmemo.pas"/>
@@ -138,7 +141,7 @@
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit15>
     </Units>
-    <JumpHistory Count="21" HistoryIndex="20">
+    <JumpHistory Count="28" HistoryIndex="27">
       <Position1>
         <Filename Value="mrcbbcolorunit.pas"/>
         <Caret Line="9" Column="65"/>
@@ -223,10 +226,38 @@
         <Filename Value="mrcbbcolorunit.pas"/>
         <Caret Line="535" TopLine="535"/>
       </Position21>
+      <Position22>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="11" Column="21"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="9" Column="40"/>
+      </Position23>
+      <Position24>
+        <Filename Value="aboutunit.pas"/>
+        <Caret Line="36" Column="54" TopLine="8"/>
+      </Position24>
+      <Position25>
+        <Filename Value="aboutunit.pas"/>
+        <Caret Line="50" Column="16"/>
+      </Position25>
+      <Position26>
+        <Filename Value="aboutunit.pas"/>
+        <Caret Line="49" Column="16" TopLine="21"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="352" Column="41" TopLine="350"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mrcbbcolorunit.pas"/>
+        <Caret Line="141" TopLine="132"/>
+      </Position28>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes Count="0" ActiveMode="default"/>
+      <Modes ActiveMode="default"/>
     </RunParams>
   </ProjectSession>
 </CONFIG>

@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, Buttons, XMLPropStorage;
+  StdCtrls, Buttons;
 
 type
 
@@ -18,7 +18,6 @@ type
     Label1: TLabel;
     Label2: TLabel;
     LangBtn: TSpeedButton;
-    AboutFormStorage: TXMLPropStorage;
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure LangBtnClick(Sender: TObject);
@@ -46,12 +45,7 @@ end;
 
 procedure TAboutForm.FormCreate(Sender: TObject);
 begin
-  //Windows/Linux
-  {$IFDEF linux}
-  AboutForm.AboutFormStorage.FileName := GetUserDir + '/.bbsettings';
-  {$ELSE}
-  AboutForm.AboutFormStorage.FileName := ExtractFilePath(ParamStr(0)) + 'bbsettings';
-  {$ENDIF}
+  Label1.Caption := Application.Title;
 end;
 
 procedure TAboutForm.FormClose(Sender: TObject; var CloseAction: TCloseAction);

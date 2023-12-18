@@ -11,7 +11,7 @@ object AboutForm: TAboutForm
   OnCreate = FormCreate
   Position = poMainFormCenter
   SessionProperties = 'Height;Width'
-  LCLVersion = '2.0.10.0'
+  LCLVersion = '2.2.4.0'
   object Image1: TImage
     Left = 8
     Height = 90
@@ -495,7 +495,7 @@ object AboutForm: TAboutForm
   end
   object Label1: TLabel
     Left = 128
-    Height = 22
+    Height = 24
     Top = 8
     Width = 90
     Caption = 'BBColor'
@@ -511,11 +511,11 @@ object AboutForm: TAboutForm
   end
   object Label2: TLabel
     Left = 128
-    Height = 135
-    Top = 47
+    Height = 153
+    Top = 38
     Width = 192
     Anchors = [akLeft]
-    Caption = 'WYSIWYG BB-Code Editor'#13#10#13#10'License: GNU GPL'#13#10'Compilation: Lazarus 2.0.10'#13#10'Author: alex_q_2000 (C) 2021'#13#10'Gratitude: algri14, Zomby'#13#10#13#10'Russian Linux Forum:'#10'https://linuxforum.ru/'
+    Caption = 'WYSIWYG BB-Code Editor'#13#10' '#13#10'License: GPLv3'#13#10'Compilation: Lazarus 2.4.4'#13#10'Author: alex_q_2000 (C) 2021'#13#10'Gratitude: algri14, Zomby'#13#10' '#13#10'Mageia Russian Community:'#10'https://forum.mageia.org.ru/'
     Font.CharSet = RUSSIAN_CHARSET
     Font.Height = -13
     Font.Name = 'Microsoft Sans Serif'
@@ -548,10 +548,5 @@ object AboutForm: TAboutForm
     Width = 372
     Anchors = [akLeft, akRight, akBottom]
     Shape = bsTopLine
-  end
-  object AboutFormStorage: TXMLPropStorage
-    StoredValues = <>
-    Left = 48
-    Top = 136
   end
 end

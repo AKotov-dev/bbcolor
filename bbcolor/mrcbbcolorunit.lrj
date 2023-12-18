@@ -1,5 +1,5 @@
 {"version":1,"strings":[
-{"hash":35730208,"name":"tmainform.caption","sourcebytes":[66,66,67,111,108,111,114,32,118,50,46,48],"value":"BBColor v2.0"},
+{"hash":107635490,"name":"tmainform.caption","sourcebytes":[66,66,67,111,108,111,114],"value":"BBColor"},
 {"hash":371956,"name":"tmainform.tabsheet1.caption","sourcebytes":[84,101,120,116],"value":"Text"},
 {"hash":300580,"name":"tmainform.boldbutton.hint","sourcebytes":[66,111,108,100],"value":"Bold"},
 {"hash":66,"name":"tmainform.boldbutton.caption","sourcebytes":[66],"value":"B"},

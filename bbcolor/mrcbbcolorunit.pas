@@ -134,7 +134,7 @@ begin
   //Windows/Linux
   {$IFDEF linux}
   Editor.PopupMenu := nil;
-  MainXMLPropStorage.FileName := GetUserDir + '/.bbsettings';
+  MainXMLPropStorage.FileName := GetUserDir + '.bbsettings';
   {$ELSE}
   MainXMLPropStorage.FileName := ExtractFilePath(ParamStr(0)) + 'bbsettings';
   {$ENDIF}
@@ -349,10 +349,12 @@ end;
 
 procedure TMainForm.FormShow(Sender: TObject);
 begin
+  //Plasma DPi
+  MainXMLPropStorage.Restore;
+
+  MainForm.Caption := Application.Title;
   DefaultColor := BBTextMemo.Font.Color;
   EditorModified := False;
-  MainForm.Top := 50;
-  MainForm.Left := Screen.Width div 2 - MainForm.Width div 2;
 
   Editor.Font.Size := SpinEdit1.Value;
   PageControl1.ActivePageIndex := 0;

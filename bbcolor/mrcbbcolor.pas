@@ -13,6 +13,8 @@ uses
 
 begin
   RequireDerivedFormResource:=True;
+  Application.Scaled:=True;
+  Application.Title:='BBColor v2.1';
   Application.Initialize;
   Application.CreateForm(TMainForm, MainForm);
   Application.CreateForm(TAboutForm, AboutForm);

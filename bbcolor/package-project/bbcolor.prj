@@ -2,10 +2,10 @@
 name=bbcolor
 
 [VERSION]
-version=2.0
+version=2.1
 
 [RELEASE]
-release=1.mrx8
+release=1.mrx9
 
 [GROUP]
 group=Applications/Text
@@ -25,13 +25,13 @@ vendor=alex_q_2000 (C) 2021
 summary=BBColor - text to bb-code converter
 
 [URLCOPY]
-urlcopy=https://cloud.mail.ru/public/sL6t/U1rcycBH1
+urlcopy=https://github.com/AKotov-dev/bbcolor
 
 [LICENSE]
-license=GPLv3+
+license=GPLv3
 
 [DEPS]
-deps=
+deps=gtk2
 
 [META]
 meta=0
@@ -39,8 +39,8 @@ meta=0
 [NOARCH]
 noarch=0
 
-[SIGN]
-sign=0
+[DEB]
+deb=0
 
 [FILES]
 0=/usr/bin/bbcolor
@@ -50,10 +50,7 @@ sign=0
 4=/usr/share/doc/bbcolor/
 
 [URL32]
-url32=https://cloud.mail.ru/public/sL6t/U1rcycBH1
-
-[URL64]
-url64=
+url32=https://github.com/AKotov-dev/bbcolor
 
 [PROGRAMNAME]
 programname=BBColor
@@ -62,9 +59,12 @@ programname=BBColor
 devtool=Lazarus
 
 [TOOLVERSION]
-toolversion=2.0.10
+toolversion=2.4.4
 
 [INFO]
-0=Lazarus 2.0.10 is required to compile the program
-1=
-2=Additional components: RichMemo from Lazarus Network Installer
+0=Additional components: RichMemo from Lazarus Network Installer
+1=---
+2=
+3=v2.1
+4=+ Recompilation of Lazarus 2.4.4, Mageia-9
+5=+ RPM packages for Mageia-9

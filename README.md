@@ -4,7 +4,7 @@ BBColor - BB-code editor & converter for forums
 - Creates beautiful links with a description for quick insertion into the forum
 - The program code is optimized for Linux and Windows
   
-![](https://github.com/AKotov-dev/bbcolor/blob/main/Screenshot1.png)
+![](https://github.com/AKotov-dev/bbcolor/blob/main/Screenshot2.png)
   
 To recompile, install an additional package `Lazarus` - `RichMemo`.  
 The easiest way to install the stable version of the component is via the `Online-Package-Manager` included in current `Lazarus` versions.

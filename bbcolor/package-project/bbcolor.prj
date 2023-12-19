@@ -59,12 +59,12 @@ programname=BBColor
 devtool=Lazarus
 
 [TOOLVERSION]
-toolversion=2.4.4
+toolversion=2.2.4
 
 [INFO]
 0=Additional components: RichMemo from Lazarus Network Installer
 1=---
 2=
 3=v2.1
-4=+ Recompilation of Lazarus 2.4.4, Mageia-9
+4=+ Recompilation of Lazarus 2.2.4, Mageia-9
 5=+ RPM packages for Mageia-9
